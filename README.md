@@ -1,11 +1,11 @@
-About pypika
-============
+About pypika-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pypika-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/kayak/pypika
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pypika-feedstock/blob/main/LICENSE.txt)
 
 Summary: A SQL query builder API for Python
 
