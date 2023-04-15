@@ -1,5 +1,5 @@
 {% set name = "pypika" %}
-{% set version = "0.48.8" %}
+{% set version = "0.48.9" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pypika-{{ version }}.tar.gz
-  sha256: 45af481d8523d60f87e308dee6ff5c454f331c8ce3a675e5398fbea6c20fe1b1
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/PyPika-{{ version }}.tar.gz
+  sha256: 838836a61747e7c8380cd1b7ff638694b7a7335345d0f559b04b2cd832ad5378
 
 build:
   number: 0
@@ -17,7 +17,7 @@ build:
 
 requirements:
   host:
-    - pip <21.3
+    - pip
     - python >=3.6
   run:
     - python >=3.6
